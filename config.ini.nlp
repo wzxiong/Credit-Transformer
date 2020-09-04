@@ -1,0 +1,20 @@
+[strings]
+# model pat
+mode=prediction
+model_dir=./model_idx/
+data_path=./data_idx/
+npz_data=./data/nlpzx.npz
+[ints]
+vocabulary_size=63566
+sentence_size=30
+embedding_size=160
+batch_size=2048
+steps_per_checkpoint=1
+num_layers=2
+num_heads=8
+epochs=5
+shuffle_size=3522270
+diff=1024
+
+[floats]
+drop_rate=0.2
