@@ -1,0 +1,22 @@
+# model path
+mode=train
+model_dir=./model_all2/
+data_path=./data/
+npz_data=./data/allzx.npz
+
+[ints]
+vocabulary_size=62580
+sentence_size=100
+embedding_size=160
+batch_size=32
+steps_per_checkpoint=1
+num_layers=2
+num_heads=8
+epochs=10
+shuffle_size=3522270
+diff=1024
+num_feat1=41
+num_feat2=936
+
+[floats]
+drop_rate=0.2
